@@ -2,6 +2,7 @@
 Rebase your API paths at Swashbuckle preserialization
 
 ![Build](https://github.com/waxtell/Swashbuckle.Rebase.Extensions/workflows/Build/badge.svg)
+![Publish to nuget](https://github.com/waxtell/Swashbuckle.Rebase.Extensions/workflows/Publish%20to%20nuget/badge.svg?branch=master)
 
 Configuration:
 ```csharp
