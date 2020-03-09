@@ -9,6 +9,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>Swashbuckle basepath preserialization</PackageTags>
     <PackageReleaseNotes>1.0.0- Initial release</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
