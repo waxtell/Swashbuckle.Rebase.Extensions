@@ -1,19 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>Will Axtell</Authors>
-    <Description>Rebase your API paths at Swashbuckle preserialization</Description>
-    <PackageProjectUrl>https://github.com/waxtell/Swashbuckle.Rebase.Extensions</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/waxtell/Swashbuckle.Rebase.Extensions.git</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PackageTags>Swashbuckle basepath preserialization</PackageTags>
-    <PackageReleaseNotes>1.0.0- Initial release</PackageReleaseNotes>
-    <Version>1.0.1</Version>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Authors>Will Axtell</Authors>
+		<Description>Rebase your API paths at Swashbuckle preserialization</Description>
+		<PackageProjectUrl>https://github.com/waxtell/Swashbuckle.Rebase.Extensions</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/waxtell/Swashbuckle.Rebase.Extensions.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Swashbuckle basepath preserialization</PackageTags>
+		<PackageReleaseNotes>
+			2.0.0 - Target net8.0 and Swashbuckle.AspNetCore 10.1.0
+			1.0.0 - Initial release
+		</PackageReleaseNotes>
 
-  <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
-  </ItemGroup>
+		<Version>2.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.0" />
+	</ItemGroup>
 
 </Project>
